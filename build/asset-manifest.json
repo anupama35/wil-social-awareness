@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/static/css/main.81147859.css",
+    "main.js": "/static/js/main.23736138.js",
+    "static/media/Poppins-Regular.ttf": "/static/media/Poppins-Regular.8081832fc5cfbf634aa6.ttf",
+    "static/media/Poppins-Medium.ttf": "/static/media/Poppins-Medium.9e1bb626874ed49aa343.ttf",
+    "static/media/Poppins-Bold.ttf": "/static/media/Poppins-Bold.404e299be26d78e66794.ttf",
+    "static/media/Social_Awareness_logo.jpeg": "/static/media/Social_Awareness_logo.568f274537ef556e86aa.jpeg",
+    "static/media/user_img.jpg": "/static/media/user_img.e29feddad6b13b2ae3ec.jpg",
+    "index.html": "/index.html",
+    "main.81147859.css.map": "/static/css/main.81147859.css.map",
+    "main.23736138.js.map": "/static/js/main.23736138.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.81147859.css",
+    "static/js/main.23736138.js"
+  ]
+}
