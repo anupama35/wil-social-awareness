@@ -27,7 +27,7 @@ function Advertisement() {
                 alert("Successfully posted");
                     
             }  
-			window.location.reload(false);
+			//window.location.reload(false);
 		});
 
 	};
