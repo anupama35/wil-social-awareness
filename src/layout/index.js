@@ -25,7 +25,7 @@ function Layout() {
 
     Axios.defaults.withCredentials = true;
     useEffect(() => {
-        Axios.get("https://wil-social-awareness.herokuapp.com").then((response) => {
+        Axios.get("https://wil-social-awareness.herokuapp.com", { withCredentials: true }).then((response) => {
             if(response.data.user){
                 setLoggedin(response.data.loggedIn);
                 setActiveuser(response.data.user[0].username);
