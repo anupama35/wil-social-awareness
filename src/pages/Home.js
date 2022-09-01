@@ -67,7 +67,7 @@ function Home() {
                 <div className="d-flex space-between">        
                     <div className="timeline_container">
                       <div className="Popup_btns">
-                        <button className= "add_adv_btn" onClick = { (event) => checkUserLogin("campaign", event) }>Post Campaign</button>
+                        <button className= "add_adv_btn" onClick = { (event) => checkUserLogin("campaign", event) }>Post a Campaign</button>
                         <button className= "add_adv_btn"  onClick = { (event) => checkUserLogin("ad", event) } >Post Advertisement</button>
                       </div>
                       <div className="timeline">
