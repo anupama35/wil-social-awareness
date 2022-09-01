@@ -4,4 +4,4 @@ to = '/index.html'
 status = 200
 
 [[redirects]]
-/app/* https://wil-social-awareness.herokuapp.com 200
+/app/* https://wil-social-awareness.herokuapp.com/:splat 200
