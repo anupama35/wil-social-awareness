@@ -21,8 +21,7 @@ function Login() {
         }).then((response) => {      
             if(response.data.error) {
                 setLoginStatus(response.data.error);
-            } else {      
-                
+            } else {                      
                 alert("Successfully logged in");
                 navigate("/");
                 //window.location.reload(false);
