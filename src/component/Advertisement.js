@@ -30,7 +30,7 @@ function Advertisement() {
                 alert("Successfully posted");
                 navigate('/');    
             }  
-			//window.location.reload(false);
+			window.location.reload(false);
 		});
 
 	};
