@@ -70,10 +70,10 @@ function Layout() {
                                     <ul className="user_options no-style">
                                      
                                     { userRole === 'admin' &&
-                                       <li className="option_item"><Link href="/approve">Approve posts</Link></li>  
+                                       <li className="option_item"><Link to="/approve">Approve posts</Link></li>  
                                     }
-                                      <li className="option_item"><Link href="/profile">Edit My Profile</Link></li>                                  
-                                      <li className="option_item"><Link className="link" onClick= {logout}>Log Out</Link></li>
+                                      <li className="option_item"><Link to="/profile">Edit My Profile</Link></li>                                  
+                                      <li className="option_item"><a className="link" onClick= {logout}>Log Out</a></li>
                                     </ul>
                                   </div>
                                 </div>
