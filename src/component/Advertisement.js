@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { useNavigate } from 'react-router-dom';
 
 import Axios from "axios";
 
@@ -25,7 +26,7 @@ function Advertisement() {
                     
             } else {                      
                 alert("Successfully posted");
-                    
+                navigate('/');    
             }  
 			//window.location.reload(false);
 		});
