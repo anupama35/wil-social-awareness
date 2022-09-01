@@ -24,7 +24,7 @@ function Login() {
             } else {                      
                 alert("Successfully logged in");
                 navigate("/");
-                window.location.reload(false);
+                //window.location.reload(false);
             }
 
          });
