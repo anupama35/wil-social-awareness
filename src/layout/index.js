@@ -41,7 +41,7 @@ function Layout() {
         Axios.get("https://wil-social-awareness.herokuapp.com/api/logout").then((response) => {
             console.log("User Exit");
             navigate('/login');
-            window.location.reload(false);
+            //window.location.reload(false);
         });
         
       };
