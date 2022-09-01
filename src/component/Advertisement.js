@@ -8,6 +8,8 @@ function Advertisement() {
 	const [title, setTitle] = useState('');
 	const [image, setImage] = useState(null);
 
+	const navigate = useNavigate();
+
 	const postAdvertisement = () => {
 
 		const formData = new FormData();
