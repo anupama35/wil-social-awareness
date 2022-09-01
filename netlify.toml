@@ -4,4 +4,6 @@ to = '/index.html'
 status = 200
 
 [[redirects]]
-/api/* https://wil-social-awareness.herokuapp.com/:splat 200
+from = '/api/*'
+to = 'https://wil-social-awareness.herokuapp.com/:splat' 
+status = 200
