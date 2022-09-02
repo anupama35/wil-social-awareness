@@ -81,7 +81,7 @@ function Home() {
                                 </div>
                                 <div className="post_media">
                                     
-                                    <img src= { 'https://wil-social-awareness.herokuapp.com/uploads/' + post.image_src } alt="Post Image"/>
+                                    <img src= { 'https://wil-social-awareness.s3.us-east-1.amazonaws.com/' + post.image_src } alt="Post Image"/>
                                 </div>
                                 <div>
                                     
@@ -106,7 +106,7 @@ function Home() {
                           <div className="swiper-wrapper">
                           {advertisement.map(ad =>
                             <div className="swiper-slide">
-                              <img src={ 'https://wil-social-awareness.herokuapp.com/uploads/' + ad.image_src } alt= { ad.title} />
+                              <img src={ 'https://wil-social-awareness.s3.us-east-1.amazonaws.com/' + ad.image_src } alt= { ad.title} />
                             </div>  
                           )}
                           </div>
